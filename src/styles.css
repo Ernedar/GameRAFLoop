@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.graph-table-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #f7f7f7;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.graph-table-wrapper > div {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.graph-wrapper {
+  width: 100%;
+  height: 25px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.graph-table-wrapper p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.graph {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.graph-table-wrapper > div:nth-child(1) .graph {
+  background-color: darkblue;
+}
+
+.graph-table-wrapper > div:nth-child(2) .graph {
+  background-color: #ffe300;
+}
+
+.graph-table-wrapper > div:nth-child(3) .graph {
+  background-color: #ffc23d;
+}
+
+.graph-table-wrapper > div:nth-child(4) .graph {
+  background-color: #00ffff;
+}
+
+.graph-table-wrapper > div:nth-child(5) .graph {
+  background-color: #ffb8ff;
+}
+
+.graph-table-wrapper > div:nth-child(6) .graph {
+  background-color: #ff0000;
+}
