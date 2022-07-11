@@ -1,2 +1,3 @@
 # GameRAFLoop
-Created with CodeSandbox
+
+GameLoop interaction with RequestAnimationFrame
